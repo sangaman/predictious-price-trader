@@ -1,2 +1,3 @@
-# predictious-price-trader
-A script that automatically trades bitcoin asset-or-nothing binary options
+# Automated Predictious Bitcoin Price Market Maker
+
+This script automatically trades the bitcoin asset-or-nothing binary options on the [Predictious](https://www.predictious.com/) online prediction market. It uses the [Black-Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model) and real-time price and volatility data to approximate the chances of bitcoin price surpassing certain levels on certain dates in the future. The script was active and profitable over a 2.5 year period from 2014 to 2016. The model does not always respond appropriately to changing market conditions and has not been updated since 2016 - it should not be presumed to be profitable nowadays.
